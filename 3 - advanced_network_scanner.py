@@ -28,8 +28,16 @@ MAX_THREADS = 200  # Escaneos simultaneos
 COMMON_PORTS = [21, 22, 23, 25, 53, 80, 110, 111, 135, 139, 143, 443, 445, 993, 995, 1723, 3306, 3389, 5900, 8080]
 VULNERABLE_SERVICES = {
     r"OpenSSH 7.[0-4]": "CVE-2020-14145",
-    r"Apache 2.4.[0-9]": "CVE-2021-41773",
-    r"ProFTPD 1.3.[0-5]": "CVE-2020-9273",
-    r"vsftpd 2.3.[0-4]": "CVE-2011-2523",
-    r"Microsoft-IIS/6.0": "CVE-2017-7269"
+    r"Apache 2.4.[0-9]": "CVE-2021-41773 + CVE-2021-42013",
+    r"nginx 1\.(18|19|20)\.0": "CVE-2021-23017",
+    r"ProFTPD 1\.3\.[0-5]": "CVE-2020-9273",
+    r"vsftpd 2\.3\.[0-4]": "CVE-2011-2523",
+    r"Microsoft-IIS/6\.[0]": "CVE-2017-7269"
+    r"Microsoft-IIS/7\.5": "CVE-2015-1635",
+    r"MySQL 5\.[0-5]": "CVE-2012-2122",
+    r"PostgreSQL 9\.[0-3]": "CVE-2016-5423",
+    r"VMware ESXi 6\.[0-5]": "CVE-2021-21985",
+    r"Docker (19|20)\.03\.[0-3]": "CVE-2021-21285",
+    r"Realtek SDK 1\.[0-3]": "CVE-2021-35394",
 }
+
