@@ -32,7 +32,7 @@ VULNERABLE_SERVICES = {
     r"nginx 1\.(18|19|20)\.0": "CVE-2021-23017",
     r"ProFTPD 1\.3\.[0-5]": "CVE-2020-9273",
     r"vsftpd 2\.3\.[0-4]": "CVE-2011-2523",
-    r"Microsoft-IIS/6\.[0]": "CVE-2017-7269"
+    r"Microsoft-IIS/6\.[0]": "CVE-2017-7269",
     r"Microsoft-IIS/7\.5": "CVE-2015-1635",
     r"MySQL 5\.[0-5]": "CVE-2012-2122",
     r"PostgreSQL 9\.[0-3]": "CVE-2016-5423",
@@ -40,4 +40,13 @@ VULNERABLE_SERVICES = {
     r"Docker (19|20)\.03\.[0-3]": "CVE-2021-21285",
     r"Realtek SDK 1\.[0-3]": "CVE-2021-35394",
 }
-
+def tcp_scan():
+def udp_scan():
+def tcp_udp_scan():
+def os_scan():
+def port_scan():
+def service_scan():
+def version_scan():
+def vulnerabilities_scan():
+def create_report():
+    
