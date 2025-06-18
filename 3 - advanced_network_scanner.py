@@ -1,3 +1,4 @@
+def main():
 print(r"""
 ╔═════════════════════════════════════════════════════════════════════════════════════╗
 ║                ██████╗                                                              ║
@@ -18,6 +19,9 @@ print(r"""
 ║     ╚════╝                  ╚════╝                                                  ║
 ╚═════════════════════════════════════════════════════════════════════════════════════╝
 """)
+    target = input("Enter target IP or domain: ")
+    scan_type = input("Scan type [tcp/udp/both]: ").lower()
+    custom_ports = input("Ports to scan (e.g. 80,443,1-1000 or 'all'): ")
 
 # Configuración de la aplicación
 MAX_THREADS = 200  # Escaneos simultaneos
