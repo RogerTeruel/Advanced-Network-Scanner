@@ -19,3 +19,13 @@ print(r"""
 ╚═════════════════════════════════════════════════════════════════════════════════════╝
 """)
 
+# Configuración de la aplicación
+MAX_THREADS = 200  # Escaneos simultaneos
+COMMON_PORTS = [21, 22, 23, 25, 53, 80, 110, 111, 135, 139, 143, 443, 445, 993, 995, 1723, 3306, 3389, 5900, 8080]
+VULNERABLE_SERVICES = {
+    r"OpenSSH 7.[0-4]": "CVE-2020-14145",
+    r"Apache 2.4.[0-9]": "CVE-2021-41773",
+    r"ProFTPD 1.3.[0-5]": "CVE-2020-9273",
+    r"vsftpd 2.3.[0-4]": "CVE-2011-2523",
+    r"Microsoft-IIS/6.0": "CVE-2017-7269"
+}
